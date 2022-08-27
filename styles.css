@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 25px;
+}
+
+.card {
+    display: grid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.section-1 {
+    background-color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 30px;
+}
+
+.icon-1 {
+    margin-bottom: 10px;
+}
+
+.section-1-tittle {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 25px;
+}
+
+.section-1-description {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+    opacity: 0.6;
+}
+
+.section-1-btn {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+.section-1-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.section-2 {
+    background-color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 30px;
+}
+
+.icon-2 {
+    margin-bottom: 10px
+}
+
+.section-2-tittle {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 25px
+}
+
+.section-2-description {
+    color: hsl(0, 0%, 95%);
+    opacity: 0.6;
+    margin-bottom: 25px
+}
+
+.section-2-btn {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+.section-2-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.section-3 {
+    background-color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 30px;
+}
+
+.icon-3 {
+    margin-bottom: 10px
+}
+
+.section-3-tittle {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 25px
+}
+
+.section-3-description {
+    color: hsl(0, 0%, 95%);
+    opacity: 0.6;
+    margin-bottom: 25px
+}
+
+.section-3-btn {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+.section-3-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 600px) {
+    .card {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1075px) {
+    .card {
+        display: flex;
+        height: 65vh;
+    }
+
+    .section-1 {
+        padding: 40px;
+    }
+
+    .icon-1 {
+        margin-bottom: 25px;
+    }
+
+    .section-1-tittle {
+        font-size: 46px;
+        margin-bottom: 45px;
+    }
+
+    .section-1-description {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+
+    .section-1-btn {
+        width: 160px;
+        height: 45px;
+        border-radius: 30px;
+        margin-top: 70px;
+    }
+
+    .section-2 {
+        padding: 40px;
+    }
+
+    .icon-2 {
+        margin-bottom: 25px;
+    }
+
+    .section-2-tittle {
+        font-size: 46px;
+        margin-bottom: 45px;
+    }
+
+
+    .section-2-description {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+
+    .section-2-btn {
+        width: 160px;
+        height: 45px;
+        border-radius: 30px;
+        margin-top: 70px;
+    }
+
+
+    .section-3 {
+        padding: 40px;
+    }
+
+    .icon-3 {
+        margin-bottom: 25px;
+    }
+
+    .section-3-tittle {
+        font-size: 46px;
+        margin-bottom: 45px;
+    }
+
+
+    .section-3-description {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+
+    .section-3-btn {
+        width: 160px;
+        height: 45px;
+        border-radius: 30px;
+        margin-top: 70px;
+    }
+
+}
